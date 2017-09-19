@@ -25,7 +25,7 @@
 
 **3.页面结构**
 
-[index.html](https://github.com/magicmai/form-validation-by-jQuery/blob/master/index.html)
+**[index.html](https://github.com/magicmai/form-validation-by-jQuery/blob/master/index.html)**
 
 外部文件：
 
@@ -82,4 +82,4 @@ if (new_val !== 'undefined') {
 
 **6.完善样式**
 
-[main.css](https://github.com/magicmai/form-validation-by-jQuery/blob/master/css/main.css)
+**[main.css](https://github.com/magicmai/form-validation-by-jQuery/blob/master/css/main.css)**
