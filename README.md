@@ -24,7 +24,8 @@
 - jQuery
 
 **3.页面结构**
-[index.html]()
+
+[index.html](https://github.com/magicmai/form-validation-by-jQuery/blob/master/index.html)
 
 外部文件：
 
@@ -43,10 +44,12 @@ js：`jquery.js`、`validator.js`、`input.js`、`main.js`
 - input.js
 - validator.js
 
-**[validator.js]()：**
+**[validator.js](https://github.com/magicmai/form-validation-by-jQuery/blob/master/js/validator.js)：**
+
 Validator构造函数，检测输入合法性：is_valid()
 
-**[input.js]()：**
+**[input.js](https://github.com/magicmai/form-validation-by-jQuery/blob/master/js/input.js)：**
+
 Input构造函数，参数：selector
 过程：
 1. 通过传入的参数 `selector` 获取 `input` 元素中用户输入的值 （`val`）
@@ -55,7 +58,8 @@ Input构造函数，参数：selector
 4. 新建检测函数的实例，传入用户输入的值和存储验证规则的对象 （`val` 和 `rule`）：`new Validator(val, rule)`
 5. 监听 `input` 输入框中值的变化，判断合法性
 
-**[main.js]()：**
+**[main.js](https://github.com/magicmai/form-validation-by-jQuery/blob/master/js/main.js)：**
+
 1. 选中页面中所有的 `input[data-rule]` 元素
 2. 解析每一个 `input` 的验证规则
 3. 验证
@@ -77,4 +81,5 @@ if (new_val !== 'undefined') {
 ```
 
 **6.完善样式**
-[main.css]()
+
+[main.css](https://github.com/magicmai/form-validation-by-jQuery/blob/master/css/main.css)
